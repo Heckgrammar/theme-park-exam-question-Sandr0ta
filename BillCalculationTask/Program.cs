@@ -12,13 +12,25 @@
                     ○ charging £15 per person
                     ○ reducing the total charge by £5 if there are six or more people
                 • output the total charge.
-            You should use meaningful variable name(s) inyour answer.
+            You should use meaningful variable name(s) in your answer.
             */
             // Write your program and test it with the following test data
             // 1: 4 people
             // 2: 10 people
             // 3: 6 people
-            // Commit your changes and add screnshot evidence of your program running to the Readme
+            // Commit your changes and add screenshot evidence of your program running to the Readme
+
+        Console.Write("Enter the number of people in the group: ");
+        int numberOfPeople = Convert.ToInt32((Console.ReadLine());
+
+        int totalCharge = numberOfPeople * 15;
+        if (numberOfPeople >= 6)
+        {
+            totalCharge -= 5;
+        }
+        
+        
+        Console.WriteLine("Total charge: £" + totalCharge);
 
         }
     }
