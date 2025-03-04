@@ -4,7 +4,7 @@
         int totalCharge = numberOfPeople * 15;
         if (numberOfPeople >= 6)
         {
-            totalCharge -= 5;
+            totalCharge = totalCharge - 5;
         }
         
         
