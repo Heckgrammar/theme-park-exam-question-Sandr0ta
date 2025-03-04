@@ -32,6 +32,10 @@
         
         Console.WriteLine("Total charge: £" + totalCharge);
 
+        //Output for 4 people: £60
+        // 10 people : £145
+        //6 people : £25
+
         }
     }
 }
